@@ -36,6 +36,10 @@ namespace Smartstore.Web.Models.Customers
         [LocalizedDisplay("*FirstName")]
         public string FirstName { get; set; }
 
+        public bool MiddleNameRequired { get; set; }
+        [LocalizedDisplay("*MiddleName")]
+        public string MiddleName { get; set; }
+
         public bool LastNameRequired { get; set; }
         [LocalizedDisplay("*LastName")]
         public string LastName { get; set; }
